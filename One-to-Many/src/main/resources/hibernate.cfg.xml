@@ -7,12 +7,12 @@
     <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/hibernate_one_to_many?createDatabaseIfNotExist=true</property>
     <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">Ijse@123</property>
+    <property name="hibernate.connection.password">1212</property>
     <!-- <property name="connection.username"/> -->
     <!-- <property name="connection.password"/> -->
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.show_sql">true</property>  <!-- show the query-->
-    <property name="hibernate.hbm2ddl.auto">create</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
     <!-- DB schema will be updated if needed -->    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
   </session-factory>
 </hibernate-configuration>

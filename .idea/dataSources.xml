@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="hibernate_one-to-one@localhost" uuid="833b7a82-fe8d-4f79-ba1f-6033c214bc9d">
+    <data-source source="LOCAL" name="hibernate_supermarket@localhost" uuid="ae8e812a-4386-442f-b46e-3a43821940dc">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/hibernate_one-to-one</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/hibernate_supermarket</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
@@ -13,11 +13,11 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="hibernate_one_to_one_gdse_71@localhost" uuid="fbd13bca-bc72-4158-948c-76d43a7924cf">
+    <data-source source="LOCAL" name="hibernate_one_to_many@localhost" uuid="990a7ff7-da81-47da-b687-a6c2f128dd32">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/hibernate_one_to_one_gdse_71</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/hibernate_one_to_many</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
