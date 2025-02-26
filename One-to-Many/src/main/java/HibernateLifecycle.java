@@ -30,6 +30,9 @@ public class HibernateLifecycle {
         session = FactoryConfiguration.getInstance().getSession();
 
         // **Persistent State**
-        session.merge(customer); //update method
+        session.merge(customer);
+
+        // **Remove State**
+        session.remove(customer); //delete in db
     }
 }
